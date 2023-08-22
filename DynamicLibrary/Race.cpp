@@ -1,3 +1,12 @@
 #include <vector>
-#include "Vehicle.h"
 #include "Race.h"
+
+
+void Race::RegisterVehicle(Vehicle* vehicle)
+{
+	//код
+}
+void Race::StartRace()
+{
+	//код
+}

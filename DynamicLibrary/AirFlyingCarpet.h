@@ -1,3 +1,9 @@
 #pragma once
 
-#include "AirVehicle.h"
+#include "VehicleAir.h"
+
+class AirFlyingCarpet : VehicleAir
+{
+public:
+	AirFlyingCarpet(int speed, double distanceCoefficient);
+};

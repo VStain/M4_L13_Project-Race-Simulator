@@ -9,9 +9,10 @@ class Race
 {
 public:
 	Race(int distance);
-	void RegisterVehicle(Vehicle* vehicle);
-	void StartRace();
-private:
+	virtual void RegisterVehicle(Vehicle* vehicle);
+	virtual void StartRace();
+
+protected:
 	int distance = 0;
 	vector<Vehicle*> vehicles;
 };

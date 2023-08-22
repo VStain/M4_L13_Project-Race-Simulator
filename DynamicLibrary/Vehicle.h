@@ -3,8 +3,8 @@
 class Vehicle
 {
 public:
-	Vehicle(int speed) {};
+    virtual int getSpeed(int speed) const;
 
-private:
+protected:
 	int speed = 0;
 };

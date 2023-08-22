@@ -18,22 +18,22 @@
     <ClInclude Include="Vehicle.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="GroundVehicle.h">
+    <ClInclude Include="VehicleGround.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="AirVehicle.h">
+    <ClInclude Include="VehicleAir.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Race.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="GroundRace.h">
+    <ClInclude Include="RaceGround.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="AirRace.h">
+    <ClInclude Include="RaceAir.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="MixedRace.h">
+    <ClInclude Include="RaceMixed.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="GroundCamel.h">
@@ -62,22 +62,22 @@
     <ClCompile Include="Vehicle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="GroundVehicle.cpp">
+    <ClCompile Include="VehicleGround.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="AirVehicle.cpp">
+    <ClCompile Include="VehicleAir.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Race.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="GroundRace.cpp">
+    <ClCompile Include="RaceGround.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="AirRace.cpp">
+    <ClCompile Include="RaceAir.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="MixedRace.cpp">
+    <ClCompile Include="RaceMixed.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="GroundCamel.cpp">

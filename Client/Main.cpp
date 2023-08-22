@@ -1,9 +1,9 @@
 #include <iostream>
-#include "GroundVehicle.h"
-#include "AirVehicle.h"
-#include "GroundRace.h"
-#include "AirRace.h"
-#include "MixedRace.h"
+#include "VehicleGround.h"
+#include "VehicleAir.h"
+#include "RaceGround.h"
+#include "RaceAir.h"
+#include "RaceMixed.h"
 
 int main()
 {
