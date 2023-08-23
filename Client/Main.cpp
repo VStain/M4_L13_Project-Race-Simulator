@@ -1,12 +1,17 @@
 #include <iostream>
+#include "Vehicle.h"
 #include "VehicleGround.h"
 #include "VehicleAir.h"
+#include "Race.h"
 #include "RaceGround.h"
 #include "RaceAir.h"
 #include "RaceMixed.h"
 
-int main()
-{
+int main() {
+    VehicleGround camel(10, 6, 3);
+    RaceGround RaceGround;
 
-	return 0;
+    simulateRaceGround(camel, RaceGround, 1000);
+
+    return 0;
 }

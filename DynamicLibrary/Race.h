@@ -1,18 +1,17 @@
 #pragma once
 
 #include <vector>
+#include <string>
 #include "Vehicle.h"
 
 using namespace std;
 
-class Race
-{
+class Race {
 public:
-	Race(int distance);
-	virtual void RegisterVehicle(Vehicle* vehicle);
-	virtual void StartRace();
+    Race(const string& type) : type(type) {}
+
+    const string& getType() const;
 
 protected:
-	int distance = 0;
-	vector<Vehicle*> vehicles;
+    string type;
 };

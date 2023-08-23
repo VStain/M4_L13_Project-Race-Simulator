@@ -1,10 +1,11 @@
 #pragma once
 
-class Vehicle
-{
+class Vehicle {
 public:
-    virtual int getSpeed(int speed) const;
+    Vehicle(double speed) : speed(speed) {}
+
+    virtual double getSpeed() const;
 
 protected:
-	int speed = 0;
+    double speed = 0;
 };

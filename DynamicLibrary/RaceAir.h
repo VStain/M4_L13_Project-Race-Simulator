@@ -2,10 +2,7 @@
 
 #include "Race.h"
 
-class RaceAir : public Race
-{
+class RaceAir : public Race {
 public:
-	RaceAir(int distance);
-protected:
-
+    RaceAir() : Race("Воздушные ТС") {}
 };

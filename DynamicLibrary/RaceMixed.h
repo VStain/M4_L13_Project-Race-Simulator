@@ -2,9 +2,7 @@
 
 #include "Race.h"
 
-class RaceMixed : public Race
-{
+class RaceMixed : public Race {
 public:
-	RaceMixed(int distance);
-protected:
+    RaceMixed() : Race("Смешанные ТС") {}
 };

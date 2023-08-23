@@ -1,7 +1,7 @@
 #include "Vehicle.h"
 
 
-int Vehicle::getSpeed(int speed) const
+double Vehicle::getSpeed() const
 {
-  return speed;
+	return speed;
 }

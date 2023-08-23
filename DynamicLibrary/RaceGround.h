@@ -1,11 +1,14 @@
 #pragma once
 
 #include "Race.h"
+#include "VehicleGround.h"
+#include <iostream>
 
-class RaceGround : public Race
-{
+using namespace std;
+
+class RaceGround : public Race {
 public:
-	RaceGround(int distance);
-protected:
-
+    RaceGround() : Race("Наземные ТС") {}
 };
+
+void simulateRaceGround(const VehicleGround& vehicle, const RaceGround& race, int distance) {}

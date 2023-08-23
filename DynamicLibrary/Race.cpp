@@ -2,11 +2,9 @@
 #include "Race.h"
 
 
-void Race::RegisterVehicle(Vehicle* vehicle)
+Race::Race(const string& type) : type(type) {}
+
+const string& Race::getType() const
 {
-	//код
-}
-void Race::StartRace()
-{
-	//код
+    return type;
 }
